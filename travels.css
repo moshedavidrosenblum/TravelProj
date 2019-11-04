@@ -1,0 +1,30 @@
+/* .app{
+    border-spacing: 50px;
+    display: inline-block
+    
+}
+.mytable-travel-deatals{
+    background : yellow;
+    
+    
+} */
+div>div{
+    background-color: yellow;
+    width: 420x;
+    height: 300px;
+    display: inline-block;
+padding: 20px;
+border:dashed red;
+}
+
+table{
+    width: 295px;
+    height: 295px;
+
+}
+/* .app{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+   
+} */

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travelon</title>
+    <link rel="stylesheet" href="travels.css">
+
+
+</head>
+
+<body>
+    <div class="app">
+        <div class="mytable-travel-deatals">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th> קוד נסיעה</th>
+                        <th> שם נסיעה</th>
+                        <th> מחיר</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+
+        </div>
+        <hr>
+        
+        <div class="table_orders">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>total </th>
+                        <th>passengers </th>
+                        <th>destenations</th>
+                        <th>personal id</th>
+                        <th>name</th>
+                        <th>order number</th>
+
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <hr>
+        <hr>
+        <!-- <div class="find_orders"></div> -->
+
+        
+        <div class="find_order_table">
+                <label for="find-order-name">name:</label>
+                <input type="text" id="find-order-name">
+                <button onclick="findOrder()">find</button>
+        
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>total </th>
+                        <th>passengers </th>
+                        <th> destenations</th>
+                        <th> personal id</th>
+                        <th>name</th>
+                        <th>order_number</th>
+                        
+
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+        </div>
+        <hr>
+        <div class="make_order">
+            name :
+            <input type="text" id="inputName">
+            <br>
+            personal ID:
+            <input type="text" id="inputPersonalId">
+            <br>
+            travel ID:
+            <input type="text" id="inputTravelId">
+            <br>
+            passengers:
+            <input type="text" id="inputPassangers">
+            <br>
+            <button onclick="addOrderToTable()"> send </button>
+
+
+        </div>
+        <div class="box-find-order-destenation">
+            <h4>order search</h4>
+                <select id="order-search"> 
+                        <option value="australia">australia</option>
+                        <option value="new zeeland">new zeeland</option>
+                        <option value="zimbabooe">zimbabooe</option>
+                        <option value="england">england</option>
+                        <option value="the karibian">the karibian</option>
+
+                      </select>
+                      <button onclick="findOrde()">search</button>
+                <table border="1">
+                        <thead>
+                            <tr>
+                                <th>total </th>
+                                <th>passengers </th>
+                                <th> destenations</th>
+                                <th> personal id</th>
+                                <th>name</th>
+                                <th>order_number</th>
+                                
+        
+                            </tr>
+                        </thead>
+                        <tbody>
+        
+                        </tbody>
+                    </table>
+        
+
+        </div>
+    </div>
+
+
+
+    <script src="travels.js"></script>
+</body>
+
+</html>
